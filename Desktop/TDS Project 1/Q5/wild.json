@@ -1,0 +1,7 @@
+{
+"prompt": "Hyper-realistic aerial view of thousands of wild animals migrating left to right. On the lush left, the herd is dense and vibrant. Moving horizontally, 73% of the animals disintegrate into grey ash, leaving a massive void of stark, cracked earth. By the right edge, the herd narrows to a tiny trickle. The barren grey space dominates the right, visually representing a 73% empty void to 27% surviving life. Cinematic lighting shifts from warm sun to cold shadows. No text, UI, or charts.",
+"model": "Google Imagen 3",
+"dataset_name": "Living Planet Index 2024",
+"dataset_url": "https://livingplanet.panda.org/en-US/",
+"insight": "Monitored vertebrate wildlife populations saw a 73% relative decline between 1970 and 2020."
+}
