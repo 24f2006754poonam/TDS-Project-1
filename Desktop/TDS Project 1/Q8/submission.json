@@ -1,0 +1,6 @@
+{
+  "prompt": "A surreal, photorealistic landscape. Many small distinct river streams on the ground all curve sharply to the left. However, the collective arrangement of these small left-curving streams forms a massive canyon structure that unmistakably points to the right. No arrows, no text, no numbers. Cinematic lighting.",
+  "model": "DALL-E 3",
+  "paradox": "Simpson's Paradox",
+  "visual_logic": "Local elements (streams) universally trend in one direction (left), but their aggregate form (the canyon) trends in the opposite direction (right), visually embodying how subgroups can reverse a trend when combined."
+}
