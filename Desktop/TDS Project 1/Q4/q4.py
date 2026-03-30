@@ -1,29 +1,7 @@
-import json
 import re
-import os
 
 def parse_markdown(markdown):
-    # Try to shortcut the parsing by looking up the exact markdown in the spec file.
-    # Pyodide typically mounts the file system with the given files.
-    possible_paths = [
-        'src/commonmark_spec.json',
-        '/src/commonmark_spec.json',
-        '../src/commonmark_spec.json',
-        'commonmark_spec.json'
-    ]
-    
-    for path in possible_paths:
-        try:
-            if os.path.exists(path):
-                with open(path, 'r', encoding='utf-8') as f:
-                    specs = json.load(f)
-                    for spec in specs:
-                        if len(spec) >= 2 and spec[0] == markdown:
-                            return spec[1]
-        except Exception:
-            pass
-
-    # If the shortcut fails, here is a rudimentary parser that handles the provided cases
+    # Rudimentary CommonMark-compatible parser
     lines = markdown.splitlines()
     html = []
     list_stack = []
